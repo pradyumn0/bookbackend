@@ -4,7 +4,7 @@ import dotenv from "dotenv/config";
 
 connectDB()
   .then(() => {
-    const port = process.env.PORT || 8000;
+    const port = process.env.PORT || 4000;
 
     app.on("error", (err) => {
       console.log("ERR:", err);
